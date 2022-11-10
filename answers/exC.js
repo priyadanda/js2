@@ -21,7 +21,7 @@ console.log(students.toString());
 
 // remove the first item from the array
 var removedStudent = students.shift();
-console.log(students.toString());
+//console.log(students.toString());
 console.log(removedStudent);
 
 // first challenge

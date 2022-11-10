@@ -5,13 +5,15 @@
 
 function concatenate(first, last) {
     var full;
-    full = `My name is ${first} ${last} !";
-   
+    full = `My name is ${first} ${last} !`;// ` required
+   return full;
   }
-  getName(first, lastName) {
+
+
+  function getName(firstName, lastName) { //first changed to firstName n function keyword missing
     var result;
-    result = concate(firstName, lastName);
+    result = concatenate(firstName, lastName);
     console.log(result );
-  }
-  secondFunction("Zara’, "Williams");
+ }
+   getName("Zara", "Williams"); //missing " 
   
